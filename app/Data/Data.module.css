@@ -1,0 +1,80 @@
+/* Container */
+.datapage {
+    height: 700px;
+    background-color: #3f3f46; 
+    color: white;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .heading {
+    padding: 40px;
+    font-size: 40px; 
+  }
+  
+  /* Icon Container */
+  .iconcontainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px; 
+  }
+  
+  /* Icon Boxes */
+  .iconbox {
+    background-color: #52525b; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(15, 23, 42, 1); 
+    width: 224px; 
+    height: 256px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 16px; 
+  }
+  
+  /* Icon Styling */
+  .icon {
+    font-size: 32px; 
+    background-color: #FFD200; 
+    border-radius: 50%;
+    padding: 20px; 
+  }
+  
+  /* Details Container */
+  .detailscontainer {
+    display: flex;
+    justify-content: start;
+    padding: 0 32px; 
+    margin-top: 30px; 
+  }
+  
+  /* Detail Boxes */
+  .detailsbox {
+    background-color: #1f2937; 
+    width: 224px; 
+    height: 256px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px; 
+  }
+  
+  /* Detail Icon */
+  .detailicon {
+    font-size: 32px; 
+    padding: 20px; 
+  }
+  
+  /* Detail Number */
+  .detailnumber {
+    font-size: 32px; 
+    font-weight: bold;
+  }
+  
+  /* Detail Text */
+  .detailtext {
+    color: #FFD200;
+  }
+  

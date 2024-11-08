@@ -1,0 +1,56 @@
+/* Header Styles */
+.headernav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: white;
+    display: flex;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    margin-left: 2.5rem;
+    border: 2px solid #fbbf24; 
+  }
+  
+  /* Navigation Links */
+  .navlinks {
+    display: flex;
+  }
+  
+  .navitem {
+    margin-right: 4rem;
+  }
+  
+  .navlink {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navlink:hover {
+    color: #fbbf24; 
+  }
+  
+  /* Button Styles */
+  .joinbutton {
+    padding: 0.75rem;
+    background-color: #fbbf24; 
+    border-radius: 0.5rem;
+    transition: border 0.2s;
+  }
+  
+  .joinbutton:hover {
+    border-left: 4px solid #f59e0b; 
+  }
+  
+  .joinbutton:active {
+    transform: scale(0.75);
+  }
+  

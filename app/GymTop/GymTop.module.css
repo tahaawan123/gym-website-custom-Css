@@ -1,0 +1,50 @@
+/* Main container for the page */
+.gymPageContainer {
+    position: relative;
+    border-bottom: 4px solid #FFD200; 
+    width: 100%;
+  }
+  
+  /* Image styling */
+  .imageWrapper {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Text overlay */
+  .textOverlay {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    font-weight: 800;
+    font-size: 50px; 
+    
+    
+    width: 500px;
+    
+  }
+  
+  /* Button styling */
+  .classButton {
+    background-color: #FFD200; 
+    width: 300px;
+    height: 96px; 
+    border-radius: 8px;
+    position: absolute;
+    top: 700px;
+    font-size: 32px; 
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+  
+  .classButton:hover {
+    background-color: #f8bb03;
+  }
+  
+  .classButton:active {
+    transform: scale(0.9);
+  }
+  
