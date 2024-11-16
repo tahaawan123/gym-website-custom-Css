@@ -28,7 +28,7 @@ const FormPage = () => {
             Sign up to begin your 3-day trial membership for only 3,000 PKR
           </p>
           <div className={FormCss.formDiv}>
-          <form action="./form" className="form">
+          <form action="./form">
             <input type="text" placeholder="First Name" />
             <br /><br />
             <input type="text" placeholder="Last Name" />

@@ -131,15 +131,13 @@
          
           .formDiv {
     
-            width: 100%
-            
-          }
-          .fom{
             width: 100%;
+            border:none;
           }
+         
          .formBox{
           height: 350px ;
-          width: 220px;
+          width: 250px;
           padding: 12px;
          }
          .trialInfo{
