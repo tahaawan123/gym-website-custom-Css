@@ -48,3 +48,25 @@
     transform: scale(0.9);
   }
   
+
+/* Responsive */
+
+  @media (max-width:360px) {
+    .gymPageContainer {
+      width: 100%;
+    }
+    .textOverlay {
+      top: 30%;
+      font-size: 15px; 
+      width: 200px;
+      
+    }
+    .classButton{
+      height: 40px;
+      top: 70%;
+      width: 200px;
+      font-size: 20px;
+    }
+    
+  }
+

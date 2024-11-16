@@ -1,0 +1,22 @@
+
+.footer{
+    height:8-px ;
+    color: white;
+    background-color: #000000;
+    opacity: 0.85;
+
+}
+
+.footerPara{
+    text-align: center;
+}
+.iconsDiv{
+    display: flex;
+}
+
+.icons{
+    margin-right: 28px;
+    height: 56px;
+    width: 56px;
+}
+

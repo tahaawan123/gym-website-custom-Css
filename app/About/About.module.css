@@ -9,12 +9,15 @@
     font-size:30px ;
     font-weight: bold;
 }
-.imgdiv{
+.imgdiv, .paraimgdiv, .divP{
     display: flex;
+
 }
 .imgGymClass{
-    border-left-width: 2px;
-    border-right-width: 2px;
+    
+    border-left-width: 4px;
+    border-right-width: 4px;
+
 }
 .h3{
     position: absolute;
@@ -38,9 +41,7 @@
 
 
 
-.divP{
-    display: flex;
-}
+
 
 
 .paragraph{
@@ -80,9 +81,58 @@
     border-radius: 4px;              
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     
+    
 }
 
 
 
 
+
+        /* Responsive */
+
+
+
+        @media (max-width:360px){
+          .h3{
+            margin: 50px;
+            font-size: 30px;
+
+          }
+            .h3Trainer{
+                    margin-left: 70px;
+                    font-size: 30px;
+                    
+            }
+            .imgdiv{
+                flex-direction: column-reverse;
+            }
+            .paragraph{
+                font-size: 15px;
+                padding: 20px;
+            }
+            .divP, .paraimgdiv{
+                display: block;
+            }            
+            .personalTrainingImg, .EquipmentImg{
+              margin: 10px 0 0 10px;               
+             width: 240px;
+             height: 300px;
+            }
+         
+         .personalTrainingHeading, .EquipmentHeading{
+            float: right;
+            font-size: 30px;
+            margin-right: 15px;
+            
+         }
+         .communityHeading, .AmenitiesHeading{
+            margin: 10px 0 10px 20px;
+         }
+         .communityImg, .amenitiesImg{
+            width: 240px;
+            height: 300px;
+            margin-left: 10px;
+         }
+         
+        }
 

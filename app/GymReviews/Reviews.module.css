@@ -9,15 +9,14 @@
   }
   
   .title {
-    margin-bottom: 64px;
+  
     margin-top: 80px;
     font-size: 40px;
   }
   
   .reviewText {
     text-align: center;
-    margin-left: 240px;
-    margin-right: 240px;
+    
   }
   
   .profileImage {
@@ -122,3 +121,47 @@
     border-bottom: 4px solid #FFD200; 
   }
   
+
+
+
+
+
+
+
+                      /* Responsive */
+
+
+  @media (max-width:360px){
+   .fullImage{
+    height: 800px;
+   }
+   .title{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+   }
+   .reviewText {
+    font-size: 12px;
+    
+  }
+  .factsTitle{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .fact{
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  .factNumber{
+    font-size: 25px;
+  }
+  .comfortText{
+    margin-top: 500px;
+  }
+  .comfortTitle{
+    font-size: 20px;
+  }
+  .comfortSubtitle{
+    font-size: 30px;
+  }
+  }

@@ -94,7 +94,7 @@ const AboutPage = () => {
       <h2 className={AboutCss.personalTrainingHeading}>
         PERSONAL TRAINING AT ITS BEST
       </h2>
-      <div className={AboutCss.imgdiv}>
+      <div className={AboutCss.paraimgdiv}>
         <p className={AboutCss.paragraph}>
           Our personalized training program is designed to help you achieve your
           fitness goals efficiently. Our expert trainers not only guide you

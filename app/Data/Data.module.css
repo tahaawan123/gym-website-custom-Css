@@ -78,3 +78,42 @@
     color: #FFD200;
   }
   
+
+
+
+
+
+  /* responsive  */
+
+
+  @media (max-width:360px){
+    .iconcontainer {
+      display: flex;
+      justify-content: space-evenly;
+       padding: 0 ; 
+       
+    }
+
+    .iconbox{
+      width: 60px;
+      margin-right: 4px;
+      margin-left: 0;
+    }
+    .icon{
+      padding: 10px;
+    }
+
+    .detailsbox{
+      width: 45px;
+       height: 200px;
+    }
+   .detailnumber{
+    font-size: 12px;
+   }
+   .detailtext{
+    font-size: 10px;
+   }
+   .detailscontainer{
+    padding: 0;
+   }
+  }
