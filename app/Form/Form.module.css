@@ -131,8 +131,8 @@
          
           .form {
     
-            width: 150px;
-             border: none;
+            width: 100%
+            
           }
          .formBox{
           height: 350px ;
@@ -149,4 +149,5 @@
           font-size: 12px;
           width: 220px;
         }
+        
         }                

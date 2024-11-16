@@ -18,7 +18,7 @@ const FormPage = () => {
       </div>
 
       {/* Gym Form */}
-      <div className="">
+     
       <div className={FormCss.formContainer}>
         <p className={FormCss.offerText}>
           Special Trial Offer
@@ -43,7 +43,7 @@ const FormPage = () => {
           </form>
           </div>
         </div>
-      </div>
+      
       </div>
       <div className={FormCss.imageContainer}>
         <Image
