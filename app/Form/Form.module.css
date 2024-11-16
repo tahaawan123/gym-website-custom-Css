@@ -58,7 +58,7 @@
     color: white;
   }
   
-  .form {
+  .formDiv {
     
     width: 100%;
     padding: 8px;
@@ -129,10 +129,13 @@
           }
         
          
-          .form {
+          .formDiv {
     
             width: 100%
             
+          }
+          .fom{
+            width: 100%;
           }
          .formBox{
           height: 350px ;
