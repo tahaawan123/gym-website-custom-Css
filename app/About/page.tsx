@@ -118,7 +118,7 @@ const AboutPage = () => {
       </h2>
       <div className={AboutCss.imgdiv}>
         <Image
-          src={"/pool.png"}
+          src={"/Pool.png"}
           alt="pool"
           width={600}
           height={400}
