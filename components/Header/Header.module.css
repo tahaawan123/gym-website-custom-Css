@@ -60,7 +60,7 @@
 
 /* responsive */
 
-  @media (max-width: 360px){
+  @media (max-width: 760px){
     .headernav {
        height: 200px; 
     

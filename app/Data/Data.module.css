@@ -86,7 +86,7 @@
   /* responsive  */
 
 
-  @media (max-width:360px){
+  @media (max-width:760px){
     .iconcontainer {
       display: flex;
       justify-content: space-evenly;

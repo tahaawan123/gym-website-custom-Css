@@ -131,7 +131,7 @@
                       /* Responsive */
 
 
-  @media (max-width:360px){
+  @media (max-width:760px){
    .fullImage{
     height: 800px;
    }
